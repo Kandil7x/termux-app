@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "actions": [
+    {
+      "label": "update",
+      "command": "pkg update -y && pkg upgrade -y",
+      "newSession": true
+    },
+    {
+      "label": "git status",
+      "command": "git status"
+    },
+    {
+      "label": "ls -la",
+      "command": "ls -la"
+    },
+    {
+      "label": "disk",
+      "command": "df -h ."
+    },
+    {
+      "label": "storage",
+      "command": "termux-setup-storage"
+    },
+    {
+      "label": "htop",
+      "command": "htop",
+      "newSession": true
+    },
+    {
+      "label": "clear",
+      "send": "\f"
+    },
+    {
+      "label": "^C",
+      "send": "\u0003"
+    },
+    {
+      "label": "^D",
+      "send": "\u0004"
+    }
+  ]
+}

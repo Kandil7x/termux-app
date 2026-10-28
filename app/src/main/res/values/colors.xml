@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Cyber Neon palette -->
+    <color name="neon_bg">#FF0A0A12</color>
+    <color name="neon_surface">#FF12121F</color>
+    <color name="neon_surface_raised">#FF1B1B33</color>
+    <color name="neon_cyan">#FF00F0FF</color>
+    <color name="neon_magenta">#FFFF2BD6</color>
+    <color name="neon_lime">#FF39FF88</color>
+    <color name="neon_text">#FFE6F1FF</color>
+    <color name="neon_dim">#FF6C7A9C</color>
 </resources>

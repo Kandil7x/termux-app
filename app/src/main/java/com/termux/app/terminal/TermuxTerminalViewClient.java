@@ -444,6 +444,12 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
                     audio.adjustSuggestedStreamVolume(AudioManager.ADJUST_SAME, AudioManager.USE_DEFAULT_STREAM_TYPE, AudioManager.FLAG_SHOW_UI);
                     break;
 
+                // Neon Deck (Volume Up + G):
+                case 'g':
+                    if (mActivity.getNeonDeck() != null) mActivity.getNeonDeck().toggle();
+                    mVirtualFnKeyDown = false;
+                    break;
+
                 // Writing mode:
                 case 'q':
                 case 'k':

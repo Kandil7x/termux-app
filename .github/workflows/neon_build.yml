@@ -1,0 +1,33 @@
+name: Neon build
+
+# Builds debug APKs of the Neon fork. Run it from the Actions tab (Run workflow)
+# or push to a branch named "neon". Download the APK from the run's Artifacts.
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - neon
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v6
+
+      - name: Setup java 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build debug APKs
+        env:
+          TERMUX_PACKAGE_VARIANT: apt-android-7
+        run: ./gradlew assembleDebug
+
+      - name: Upload APKs
+        uses: actions/upload-artifact@v6
+        with:
+          name: termux-neon-debug
+          path: app/build/outputs/apk/debug/*.apk

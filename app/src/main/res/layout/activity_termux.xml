@@ -20,7 +20,7 @@
             android:id="@+id/drawer_layout"
             android:layout_width="match_parent"
             android:layout_alignParentTop="true"
-            android:layout_above="@+id/terminal_toolbar_view_pager"
+            android:layout_above="@+id/neon_deck"
             android:layout_height="match_parent">
 
             <com.termux.view.TerminalView
@@ -68,6 +68,24 @@
                     android:choiceMode="singleChoice"
                     android:longClickable="true" />
 
+                <TextView
+                    android:id="@+id/neon_deck_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/neon_button_bg"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/neon_deck_button"
+                    android:textColor="@color/neon_cyan"
+                    android:textSize="14sp"
+                    android:typeface="monospace" />
+
                 <LinearLayout
                     style="?android:attr/buttonBarStyle"
                     android:layout_width="match_parent"
@@ -93,6 +111,34 @@
             </LinearLayout>
 
         </androidx.drawerlayout.widget.DrawerLayout>
+
+        <LinearLayout
+            android:id="@+id/neon_deck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/terminal_toolbar_view_pager"
+            android:background="@drawable/neon_deck_bg"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <HorizontalScrollView
+                android:id="@+id/neon_deck_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/neon_deck_chips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="6dp"
+                    android:paddingTop="6dp"
+                    android:paddingEnd="6dp"
+                    android:paddingBottom="6dp" />
+            </HorizontalScrollView>
+        </LinearLayout>
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/terminal_toolbar_view_pager"

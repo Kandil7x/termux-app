@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "packages": [
+    {
+      "name": "git",
+      "category": "Core",
+      "description": "Version control",
+      "description_ar": "إدارة إصدارات الكود"
+    },
+    {
+      "name": "openssh",
+      "category": "Core",
+      "description": "SSH client and server",
+      "description_ar": "اتصال آمن بالسيرفرات"
+    },
+    {
+      "name": "curl",
+      "category": "Core",
+      "description": "Transfer data from URLs",
+      "description_ar": "تحميل وإرسال بيانات من الروابط"
+    },
+    {
+      "name": "wget",
+      "category": "Core",
+      "description": "Download files",
+      "description_ar": "تحميل الملفات"
+    },
+    {
+      "name": "tmux",
+      "category": "Core",
+      "description": "Split and keep terminal sessions alive",
+      "description_ar": "تقسيم الطرفية وإبقاء الجلسات شغالة"
+    },
+    {
+      "name": "htop",
+      "category": "Core",
+      "description": "Live process viewer",
+      "description_ar": "عرض العمليات لحظياً"
+    },
+    {
+      "name": "rsync",
+      "category": "Core",
+      "description": "Fast file sync and backup",
+      "description_ar": "مزامنة ونسخ احتياطي سريع للملفات"
+    },
+    {
+      "name": "zip",
+      "category": "Core",
+      "description": "Create zip archives",
+      "description_ar": "إنشاء ملفات zip"
+    },
+    {
+      "name": "tree",
+      "category": "Core",
+      "description": "Show folders as a tree",
+      "description_ar": "عرض المجلدات كشجرة"
+    },
+    {
+      "name": "zsh",
+      "category": "Shell",
+      "description": "Powerful interactive shell",
+      "description_ar": "شل متطور وتفاعلي"
+    },
+    {
+      "name": "fish",
+      "category": "Shell",
+      "description": "Friendly shell with smart suggestions",
+      "description_ar": "شل سهل باقتراحات ذكية"
+    },
+    {
+      "name": "starship",
+      "category": "Shell",
+      "description": "Fast, good-looking prompt",
+      "description_ar": "برومبت سريع وشكله حلو"
+    },
+    {
+      "name": "fzf",
+      "category": "Shell",
+      "description": "Fuzzy finder for files and history",
+      "description_ar": "بحث تقريبي في الملفات والتاريخ"
+    },
+    {
+      "name": "zoxide",
+      "category": "Shell",
+      "description": "Jump to folders by name",
+      "description_ar": "التنقل بين المجلدات بالاسم"
+    },
+    {
+      "name": "ripgrep",
+      "category": "Modern CLI",
+      "description": "Very fast text search (rg)",
+      "description_ar": "بحث سريع جداً داخل الملفات"
+    },
+    {
+      "name": "fd",
+      "category": "Modern CLI",
+      "description": "Simple, fast file finder",
+      "description_ar": "بحث بسيط وسريع عن الملفات"
+    },
+    {
+      "name": "bat",
+      "category": "Modern CLI",
+      "description": "cat with colors and line numbers",
+      "description_ar": "نسخة ملونة من cat"
+    },
+    {
+      "name": "eza",
+      "category": "Modern CLI",
+      "description": "ls with icons and git status",
+      "description_ar": "نسخة حديثة من ls"
+    },
+    {
+      "name": "jq",
+      "category": "Modern CLI",
+      "description": "Read and filter JSON",
+      "description_ar": "قراءة وفلترة JSON"
+    },
+    {
+      "name": "btop",
+      "category": "Modern CLI",
+      "description": "Resource monitor with graphs",
+      "description_ar": "مراقب موارد برسوم بيانية"
+    },
+    {
+      "name": "fastfetch",
+      "category": "Modern CLI",
+      "description": "Show system info",
+      "description_ar": "عرض معلومات الجهاز"
+    },
+    {
+      "name": "python",
+      "category": "Dev",
+      "description": "Python language and pip",
+      "description_ar": "لغة بايثون"
+    },
+    {
+      "name": "nodejs",
+      "category": "Dev",
+      "description": "JavaScript runtime and npm",
+      "description_ar": "بيئة تشغيل جافاسكربت"
+    },
+    {
+      "name": "clang",
+      "category": "Dev",
+      "description": "C and C++ compiler",
+      "description_ar": "مترجم C وC++"
+    },
+    {
+      "name": "make",
+      "category": "Dev",
+      "description": "Build automation",
+      "description_ar": "أتمتة البناء"
+    },
+    {
+      "name": "cmake",
+      "category": "Dev",
+      "description": "Cross-platform build system",
+      "description_ar": "نظام بناء متعدد المنصات"
+    },
+    {
+      "name": "golang",
+      "category": "Dev",
+      "description": "Go language",
+      "description_ar": "لغة Go"
+    },
+    {
+      "name": "rust",
+      "category": "Dev",
+      "description": "Rust language and cargo",
+      "description_ar": "لغة Rust"
+    },
+    {
+      "name": "neovim",
+      "category": "Dev",
+      "description": "Modern vim editor",
+      "description_ar": "محرر vim حديث"
+    },
+    {
+      "name": "micro",
+      "category": "Dev",
+      "description": "Easy terminal text editor",
+      "description_ar": "محرر نصوص سهل للطرفية"
+    },
+    {
+      "name": "nmap",
+      "category": "Network",
+      "description": "Network scanner for your own devices",
+      "description_ar": "فحص الشبكة لأجهزتك أنت"
+    },
+    {
+      "name": "dnsutils",
+      "category": "Network",
+      "description": "DNS lookup tools (dig)",
+      "description_ar": "أدوات استعلام DNS"
+    },
+    {
+      "name": "traceroute",
+      "category": "Network",
+      "description": "Trace the path packets take",
+      "description_ar": "تتبع مسار الاتصال"
+    },
+    {
+      "name": "netcat-openbsd",
+      "category": "Network",
+      "description": "Read and write network connections",
+      "description_ar": "قراءة وكتابة اتصالات الشبكة"
+    },
+    {
+      "name": "whois",
+      "category": "Network",
+      "description": "Look up domain ownership info",
+      "description_ar": "معلومات ملكية النطاقات"
+    },
+    {
+      "name": "ffmpeg",
+      "category": "Media",
+      "description": "Convert audio and video",
+      "description_ar": "تحويل الصوت والفيديو"
+    },
+    {
+      "name": "imagemagick",
+      "category": "Media",
+      "description": "Convert and edit images",
+      "description_ar": "تحويل وتعديل الصور"
+    },
+    {
+      "name": "yt-dlp",
+      "category": "Media",
+      "description": "Download videos you have rights to",
+      "description_ar": "تحميل فيديوهات مسموح لك بتحميلها"
+    },
+    {
+      "name": "proot-distro",
+      "category": "System",
+      "description": "Run Linux distributions (Debian, Ubuntu)",
+      "description_ar": "تشغيل توزيعات لينكس"
+    },
+    {
+      "name": "termux-api",
+      "category": "System",
+      "description": "Access phone features from scripts",
+      "description_ar": "التحكم في ميزات الموبايل من السكريبتات"
+    },
+    {
+      "name": "termux-services",
+      "category": "System",
+      "description": "Run background services",
+      "description_ar": "تشغيل خدمات في الخلفية"
+    },
+    {
+      "name": "cmatrix",
+      "category": "Fun",
+      "description": "Matrix rain animation",
+      "description_ar": "شاشة المصفوفة"
+    },
+    {
+      "name": "figlet",
+      "category": "Fun",
+      "description": "Big ASCII text banners",
+      "description_ar": "كتابة نصوص كبيرة بالحروف"
+    },
+    {
+      "name": "cowsay",
+      "category": "Fun",
+      "description": "A talking cow",
+      "description_ar": "بقرة بتتكلم"
+    }
+  ]
+}

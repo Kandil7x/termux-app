@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="neon_deck_button">[ لوحة الأدوات ]</string>
+    <string name="neon_deck_install">+ تثبيت</string>
+    <string name="neon_deck_edit">تعديل</string>
+    <string name="neon_deck_reload">تحديث</string>
+    <string name="neon_deck_no_session">لا توجد جلسة طرفية شغالة</string>
+    <string name="neon_deck_config_error">في خطأ في deck.json، هنستخدم الإعدادات الافتراضية</string>
+    <string name="neon_catalog_title">كتالوج الحزم</string>
+    <string name="neon_catalog_install">تثبيت المحدد</string>
+    <string name="neon_catalog_none_selected">اختار حزمة واحدة على الأقل</string>
+</resources>

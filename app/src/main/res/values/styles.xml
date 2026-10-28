@@ -14,4 +14,12 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <!-- Dark neon dialog used by the Neon Deck package catalog. -->
+    <style name="NeonDialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@color/neon_cyan</item>
+        <item name="android:colorBackground">@color/neon_surface</item>
+        <item name="android:textColorPrimary">@color/neon_text</item>
+        <item name="android:textColorSecondary">@color/neon_dim</item>
+    </style>
+
 </resources>

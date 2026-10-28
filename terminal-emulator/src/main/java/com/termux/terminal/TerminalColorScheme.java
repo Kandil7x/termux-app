@@ -13,23 +13,23 @@ public final class TerminalColorScheme {
 
     /** http://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg, but with blue color brighter. */
     private static final int[] DEFAULT_COLORSCHEME = {
-        // 16 original colors. First 8 are dim.
-        0xff000000, // black
-        0xffcd0000, // dim red
-        0xff00cd00, // dim green
-        0xffcdcd00, // dim yellow
-        0xff6495ed, // dim blue
-        0xffcd00cd, // dim magenta
-        0xff00cdcd, // dim cyan
-        0xffe5e5e5, // dim white
+        // 16 Cyber Neon colors. First 8 are the normal set.
+        0xff0a0a12, // black (deep space)
+        0xffff3860, // red (hot coral)
+        0xff39ff88, // green (neon mint)
+        0xfff9f871, // yellow (electric yellow)
+        0xff3da5ff, // blue (plasma blue)
+        0xffff2bd6, // magenta (neon pink)
+        0xff00f0ff, // cyan (neon cyan)
+        0xffcfd8ea, // white (cold white)
         // Second 8 are bright:
-        0xff7f7f7f, // medium grey
-        0xffff0000, // bright red
-        0xff00ff00, // bright green
-        0xffffff00, // bright yellow
-        0xff5c5cff, // light blue
-        0xffff00ff, // bright magenta
-        0xff00ffff, // bright cyan
+        0xff3b4261, // bright black (slate)
+        0xffff5c7a, // bright red
+        0xff7dffb0, // bright green
+        0xfffffd9e, // bright yellow
+        0xff7cc4ff, // bright blue
+        0xffff7be8, // bright magenta
+        0xff7dfaff, // bright cyan
         0xffffffff, // bright white
 
         // 216 color cube, six shades of each color:
@@ -57,7 +57,7 @@ public final class TerminalColorScheme {
         0xff808080, 0xff8a8a8a, 0xff949494, 0xff9e9e9e, 0xffa8a8a8, 0xffb2b2b2, 0xffbcbcbc, 0xffc6c6c6, 0xffd0d0d0, 0xffdadada, 0xffe4e4e4, 0xffeeeeee,
 
         // COLOR_INDEX_DEFAULT_FOREGROUND, COLOR_INDEX_DEFAULT_BACKGROUND and COLOR_INDEX_DEFAULT_CURSOR:
-        0xffffffff, 0xff000000, 0xffffffff};
+        0xffe6f1ff, 0xff0a0a12, 0xff00f0ff};
 
     public final int[] mDefaultColors = new int[TextStyle.NUM_INDEXED_COLORS];
 

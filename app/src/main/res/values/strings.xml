@@ -235,4 +235,15 @@
     <!-- Donate Preference -->
     <string name="donate_preference_title">Donate</string>
 
+    <!-- Neon Deck -->
+    <string name="neon_deck_button">[ NEON DECK ]</string>
+    <string name="neon_deck_install">+ Install</string>
+    <string name="neon_deck_edit">Edit</string>
+    <string name="neon_deck_reload">Reload</string>
+    <string name="neon_deck_no_session">No running terminal session</string>
+    <string name="neon_deck_config_error">deck.json has an error, using defaults</string>
+    <string name="neon_catalog_title">Package catalog</string>
+    <string name="neon_catalog_install">Install selected</string>
+    <string name="neon_catalog_none_selected">Select at least one package</string>
+
 </resources>

@@ -28,6 +28,7 @@ import android.widget.Toast;
 
 import com.termux.R;
 import com.termux.app.api.file.FileReceiverActivity;
+import com.termux.app.neon.NeonDeck;
 import com.termux.app.terminal.TermuxActivityRootView;
 import com.termux.app.terminal.TermuxTerminalSessionActivityClient;
 import com.termux.app.terminal.io.TermuxTerminalExtraKeys;
@@ -90,6 +91,9 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
      * The {@link TerminalView} shown in  {@link TermuxActivity} that displays the terminal.
      */
     TerminalView mTerminalView;
+
+    /** The Neon Deck quick-action bar. Null until {@link #onCreate(Bundle)} has built it. */
+    private NeonDeck mNeonDeck;
 
     /**
      *  The {@link TerminalViewClient} interface implementation to allow for communication between
@@ -250,6 +254,9 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         setNewSessionButtonView();
 
         setToggleKeyboardView();
+
+        mNeonDeck = new NeonDeck(this);
+        mNeonDeck.attach();
 
         registerForContextMenu(mTerminalView);
 
@@ -875,6 +882,10 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
 
     public TermuxService getTermuxService() {
         return mTermuxService;
+    }
+
+    public NeonDeck getNeonDeck() {
+        return mNeonDeck;
     }
 
     public TerminalView getTerminalView() {
